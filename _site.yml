@@ -1,0 +1,24 @@
+name: "Lizbeth Gomez Website"
+output_dir: "."
+navbar:
+  title: "Lizbeth Gomez"
+  left:
+    - icon: fa-home fa-lg
+      href: index.html
+    - text: "Publications"
+      href: https://scholar.google.com/citations?user=1ZYXZL0AAAAJ&hl=en
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:<lg688@drexel.edu>
+    - icon: fa-github fa-lg
+      href: https://github.com/LizbethGomez
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/LizbethGomezF
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/lizbeth-gomez
+    - icon: fa-solid fa-map
+      href: https://storymaps.arcgis.com/stories/21b5deac6bce40dc9f664d5ba1c5ded8
+output:
+  html_document:
+  theme: yeti
+css: style.css

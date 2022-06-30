@@ -7,9 +7,9 @@ navbar:
       href: index.html
     - text: "Publications"
       href: https://scholar.google.com/citations?user=1ZYXZL0AAAAJ&hl=en
-  right:
     - text: "CV"
       href: LizbethGomez_CV.pdf
+  right:
     - icon: fa-envelope fa-lg
       href: mailto:<lg688@drexel.edu>
     - icon: fa-github fa-lg

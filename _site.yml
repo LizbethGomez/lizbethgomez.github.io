@@ -5,10 +5,10 @@ navbar:
   left:
     - icon: fa-home fa-lg
       href: index.html 
-    - text: "Presentations"
-      href: presentations.html
     - text: "CV"
       href: LizbethGomez_CV.pdf
+    - text: "Presentations"
+      href: presentations.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:<lg688@drexel.edu>

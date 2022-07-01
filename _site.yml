@@ -4,9 +4,7 @@ navbar:
   title: "Lizbeth Gomez"
   left:
     - icon: fa-home fa-lg
-      href: index.html
-    - text: "Publications"
-      href: https://scholar.google.com/citations?user=1ZYXZL0AAAAJ&hl=en
+      href: index.html 
     - text: "CV"
       href: LizbethGomez_CV.pdf
   right:
@@ -20,7 +18,9 @@ navbar:
       href: https://www.linkedin.com/in/lizbeth-gomez
     - icon: fa-solid fa-map
       href: https://storymaps.arcgis.com/stories/21b5deac6bce40dc9f664d5ba1c5ded8
+    - icon: fa-google fa-lg
+      href: https://scholar.google.com/citations?user=1ZYXZL0AAAAJ&hl=en
 output:
   html_document:
-  theme: yeti 
-css: style.css
+    theme: yeti
+    css: 'styles.css'

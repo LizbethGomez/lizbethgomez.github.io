@@ -20,11 +20,20 @@ knitr::opts_chunk$set(echo = FALSE)
 knitr::include_graphics("NYC_LIZ.jpg")
 ```
 
-I'm currently a doctoral candidate at Drexel University's [Dornsife School of Public Health](https://drexel.edu/dornsife/) in Philadelphia. I am working under the advisement of Dr. Jane Clougherty on determining pharmaceutical treatment efficacy modification by Sscial and Environmental exposures. Previously I received an MPH in [Environmental Health Sciences](https://www.publichealth.columbia.edu/academics/departments/environmental-health-sciences-ehs) from Mailman School of Public Health and a Bachelors of Science from the [City College of New York](https://www.ccny.cuny.edu/)
+I'm currently a doctoral candidate at Drexel University's [Dornsife School of Public Health](https://drexel.edu/dornsife/academics/departments/environmental-occupational-health/eoh-student-profiles/) in Philadelphia and a [GATHER Fellow](https://drexel.edu/dornsife/global/global-health-training/gather/). I am working under the advisement of Dr. Jane Clougherty on determining pharmaceutical treatment efficacy modification by Social and Environmental exposures. Previously I received an MPH in [Environmental Health Sciences](https://www.publichealth.columbia.edu/academics/departments/environmental-health-sciences-ehs) from Mailman School of Public Health and a Bachelors of Science from the [City College of New York](https://www.ccny.cuny.edu/)
 
 My research interests are in epidemiological and biostatistical methods as well as asthma disparities. I first developed these interests as a fellow in the [Puerto Rico IPE Service Learning Fellowship](http://https://www.publichealth.columbia.edu/research/office-diversity-culture-and-inclusion/puerto-rico-ipe-service-learning-trip-0), where I got to work inter-professionally with a multidisciplinary team and develop a community-based participatory and service learning research project in San Juan, Puerto Rico.
 
 I am a huge foodie, I visit NYC (where I am from) as often as my PhD training allows, and when I am not gardening, you can find me cuddling with my Bichon-Frise puppy, Lilu. I am also an amateur baker, an avid fiction reader and an R-expert-wannabe.
+
+
+
+
+<div class = "row">
+  
+<div class = "col-md-4">
+
+<br><br>
 
 ### Interests
 
@@ -32,6 +41,24 @@ I am a huge foodie, I visit NYC (where I am from) as often as my PhD training al
 -   Causal inference
 -   Asthma disparities
 -   Clinical trials
+-   Air pollution
+</div>
+  
+<div class = "col-md-4">
+<br><br>
+
+### Education
+-   MPH in Environmental Health Sciences, 2020 <br>
+   *Mailman School of Public Health* <br>
+-   Bc.S in Biology with a Minor in Chemistry, 2018 <br>
+   *City College of New York* <br>
+</div>
+  
+
+</div>
+</div>
+
+
 :::
 
 ```{js}

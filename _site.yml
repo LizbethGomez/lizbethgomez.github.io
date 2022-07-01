@@ -5,6 +5,8 @@ navbar:
   left:
     - icon: fa-home fa-lg
       href: index.html 
+    - text: "Presentations"
+      href: presentations.html
     - text: "CV"
       href: LizbethGomez_CV.pdf
   right:

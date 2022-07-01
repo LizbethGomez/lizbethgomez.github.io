@@ -1,0 +1,57 @@
+---
+title: "Presentations & Conferences"
+listing: presentations
+---
+
+```{r, include = FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+image_link <- function(image, url, border = FALSE, ...) {
+  border <- border * 2
+  htmltools::a(
+    href = url,
+    htmltools::img(src = image, style = paste0("max-width: 25%;border: ", border, "px solid;"), ...)
+  )
+}
+```
+  
+
+<br>
+
+_Modification of Treatment Efficacy in Asthma Clinical Trials by Social and Environmental Co-exposures_
+
+#### _SERG 2022_
+#### Portland, OR
+#### April 21-22, 2022
+
+```{r}
+image_link("SNAPSHOT_SERG22.PNG",
+           "STICS SERG.pdf", border = FALSE)
+```
+
+<br>
+
+_Modification of Treatment Efficacy in Asthma Clinical Trials by Social and Environmental Exposures_
+
+#### _ISEE 2021_
+#### Online, via Zoom
+#### August 24-27, 2022
+
+```{r}
+image_link("SNAPSHOT_ISEE21.PNG",
+           "ISEE_LG2021.pdf", border = FALSE)
+```
+<br>
+
+
+```{js}
+var myCaptions = document.getElementsByClassName("caption");
+for (var i = 0; i < myCaptions.length; i++) {
+  myCaptions[i].innerHTML = myCaptions[i].innerHTML.slice(11);
+}
+```

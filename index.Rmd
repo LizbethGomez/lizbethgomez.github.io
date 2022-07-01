@@ -16,6 +16,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ::: floating
+
 ```{r fig.cap = "NYC 2022"}
 knitr::include_graphics("NYC_LIZ.jpg")
 ```

@@ -48,6 +48,7 @@ I am a **huge** foodie, I visit NYC (where I am from) as often as my PhD trainin
 <br><br>
 
 ### *Education*
+
 -   MPH in Environmental Health Sciences, 2020 <br>
    *Mailman School of Public Health* <br>
 -   Bc.S in Biology with a Minor in Chemistry, 2018 <br>
@@ -59,6 +60,8 @@ I am a **huge** foodie, I visit NYC (where I am from) as often as my PhD trainin
 </div>
 
 
+
+
 :::
 
 ```{js}
@@ -67,3 +70,14 @@ for (var i = 0; i < myCaptions.length; i++) {
   myCaptions[i].innerHTML = myCaptions[i].innerHTML.slice(11);
 }
 ```
+
+<br>
+<br>
+<br>
+<br>
+
+<center>Copyright &copy; 2022 Lizbeth Gomez. All rights reserved. </center>
+
+
+<center><div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0003-3725-7531" href="https://orcid.org/0000-0003-3725-7531" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0003-3725-7531</a></div><center>
+

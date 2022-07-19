@@ -7,8 +7,6 @@ navbar:
       href: index.html 
     - text: "CV"
       href: LizbethGomez_CV.pdf
-    - text: "Presentations"
-      href: presentations.html
   right:
     - icon: fa-envelope fa-lg
       href: mailto:<lg688@drexel.edu>

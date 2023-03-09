@@ -6,7 +6,7 @@ navbar:
     - icon: fa-home fa-lg
       href: index.html 
     - text: "CV"
-      href: LizbethGomez_CV.pdf
+      href: LizbethGomez_CV_3_23.pdf
   right:
     - icon: fa-envelope fa-lg
       href: mailto:<lg688@drexel.edu>

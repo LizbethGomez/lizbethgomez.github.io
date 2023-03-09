@@ -1,5 +1,5 @@
 ---
-title: "HW 4 Dashboard"
+title: "Dashboard"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns

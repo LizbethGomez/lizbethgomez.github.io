@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ::: floating
 
 ```{r fig.cap = "NYC 2022"}
-knitr::include_graphics("NYC_LIZ.jpg")
+knitr::include_graphics("LG_headshot22.jpeg")
 ```
 
 I'm currently a doctoral candidate at Drexel University's [Dornsife School of Public Health](https://drexel.edu/dornsife/academics/departments/environmental-occupational-health/eoh-student-profiles/) in Philadelphia and a [GATHER Fellow](https://drexel.edu/dornsife/global/global-health-training/gather/). I am working under the advisement of Dr. Jane Clougherty on determining pharmaceutical treatment efficacy modification by Social and Environmental exposures. Previously, I received an MPH in Environmental Health Science from [Mailman School of Public Health](https://www.publichealth.columbia.edu/academics/departments/environmental-health-sciences-ehs)  and a Bachelors of Science from the [City College of New York](https://www.ccny.cuny.edu/).
@@ -38,11 +38,12 @@ I am a **huge** foodie, I visit NYC (where I am from) as often as my PhD trainin
 
 ### *Interests*
 
--   Epidemiological and biostatistical methods
--   Causal inference
--   Asthma disparities
+-   Epidemiological and Biostatistical Methods
+-   Causal Inference
+-   Asthma Disparities
 -   Clinical trials
--   Air pollution
+-   Air Pollution
+-   Epidemiological Theory
 </div>
   
 <div class = "col-md-4">
@@ -77,7 +78,7 @@ for (var i = 0; i < myCaptions.length; i++) {
 <br>
 <br>
 
-<center>Copyright &copy; 2022 Lizbeth Gomez. All rights reserved. </center>
+<center>Copyright &copy; 2023 Lizbeth Gomez. All rights reserved. </center>
 
 
 <center><div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0003-3725-7531" href="https://orcid.org/0000-0003-3725-7531" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0003-3725-7531</a></div><center>

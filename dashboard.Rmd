@@ -1,0 +1,82 @@
+---
+title: "HW 4 Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(plotly)
+```
+
+# Plots
+```{r}
+data("rest_inspec")
+```
+
+```{r}
+rest_inspec = 
+ rest_inspec %>% 
+  select(boro, score,cuisine_description,inspection_date, grade, grade_date, zipcode) %>% 
+  filter(
+    !is.na(score)) 
+    
+
+
+
+```
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+rest_inspec%>% 
+  count(boro) %>% 
+  filter(
+    boro != "Missing") %>% 
+  mutate(boro = fct_reorder(boro, n)) %>% 
+  plot_ly(x = ~boro, y = ~n, color = ~boro, type = "bar")
+
+
+```
+
+### Chart B
+
+```{r}
+rest_inspec %>% 
+  filter(
+    boro != "Missing") %>% 
+plot_ly(x = ~score, color = ~boro, type = "box")
+
+```
+
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Chart C
+
+```{r}
+rest_inspec%>% 
+  group_by(boro) %>% 
+  count(cuisine_description) %>%
+  filter(n >=6000) %>% 
+  filter(
+    boro != "Missing") %>% 
+  mutate(cuisine_description = fct_reorder(cuisine_description, n)) %>% 
+  plot_ly(x = ~cuisine_description, y = ~n, color = ~boro, type = "bar")
+```
+
+### Chart D
+
+```{r}
+rest_inspec %>% 
+  plot_ly(x = ~grade, y = ~score, color = ~score, type = "scatter", mode = "markers")
+

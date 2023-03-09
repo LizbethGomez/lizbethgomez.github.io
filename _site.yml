@@ -8,6 +8,8 @@ navbar:
     - text: "CV"
       href: LizbethGomez_CV_3_23.pdf
   right:
+    - icon: fa-briefcase fa-lg
+      href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<lg688@drexel.edu>
     - icon: fa-github fa-lg

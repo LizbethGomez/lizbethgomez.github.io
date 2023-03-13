@@ -58,8 +58,20 @@ ui <- fluidPage(
     mainPanel(
       
       # Plot output
-      plotOutput(outputId = "plot")
+      plotOutput(outputId = "plot"), 
       
+     p("This shiny app is a data plotter that allows the user to upload a CSV 
+       file and select the X and Y variables for plotting. It includes options 
+       for customizing the plot, such as adjusting transparency, adding jitter,
+       and adding smoothing. The app is built using the Shiny package in R and 
+       the ggplot2 package for creating the plots. The app has a sidebar layout 
+       with several input widgets, including a file input for uploading the CSV
+       file, dropdown menus for selecting columns, a slider input for transparency, 
+       and checkboxes for adding jitter and smoothing. The app also has a main panel 
+       that displays the plot based on the user's selections. The app loads the
+       data from the uploaded CSV file and updates the column choices in the 
+       dropdown menus based on the data. Overall, this app is useful for 
+       quickly exploring and visualizing data.")
     )
   )
 )

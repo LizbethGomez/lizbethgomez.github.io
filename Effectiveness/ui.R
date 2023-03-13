@@ -13,7 +13,15 @@ ui <- fluidPage(
       actionButton("submit", "Submit")
     ),
     mainPanel(
-      plotOutput("plot")
+      plotOutput("plot"), 
+      p("The Shiny app allows users to explore the effects of time-varying treatments 
+      in a hypothetical study. The app provides a simulated data set with a binary 
+      outcome variable and several covariates, and allows users to specify different
+      treatment regimes over time (i.e., different treatment probabilities at each time point).
+      Users can then compare the outcomes of different treatment regimes using various visualization tools, 
+      such as line plots and heatmaps, to see how the treatments impact the outcome over time.
+        The app also includes a brief explanation of the data generating process 
+        and the statistical methods used to estimate treatment effects.")
     )
   )
 )

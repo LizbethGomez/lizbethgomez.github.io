@@ -11,7 +11,14 @@ ui <- fluidPage(
       sliderInput("duration", "Duration of intervention (months)", min = 1, max = 24, value = 6)
     ),
     mainPanel(
-      plotOutput("plot")
+      plotOutput("plot"),
+      
+      p("This app allows users to simulate the effects of a pharmaceutical intervention 
+        on an outcome of interest. The app includes three sliders that allow the user to 
+        adjust the baseline value, intervention value, and duration of the intervention. 
+        The app then generates a plot showing the simulated outcome over time for the 
+        baseline and intervention periods.",
+        style = "font-size:25px")
     )
   )
 )

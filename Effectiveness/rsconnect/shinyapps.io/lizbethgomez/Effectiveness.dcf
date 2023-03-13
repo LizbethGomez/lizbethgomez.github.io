@@ -5,9 +5,9 @@ account: lizbethgomez
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 8549173
-bundleId: 6949993
+bundleId: 6950345
 url: https://lizbethgomez.shinyapps.io/Effectiveness/
-when: 1678676232.75548
-lastSyncTime: 1678676232.75549
+when: 1678681842.60683
+lastSyncTime: 1678681842.60683
 asMultiple: FALSE
 asStatic: FALSE

@@ -21,8 +21,10 @@ navbar:
       - text: '---------------------'
       - text: Shiny App - Effectiveness
         href: https://lizbethgomez.shinyapps.io/Effectiveness/
-      - text: Shiny App - Tine-varying treatments
+      - text: Shiny App - Time-varying Treatments
         href: https://lizbethgomez.shinyapps.io/tv_app/
+      - text: Shiny App - File Upload
+        href: https://lizbethgomez.shinyapps.io/Evictions/
   right:
     - icon: fa-envelope fa-lg
       href: mailto:<lg688@drexel.edu>

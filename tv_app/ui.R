@@ -1,0 +1,41 @@
+library(shiny)
+library(ggplot2)
+
+# Define UI
+ui <- fluidPage(
+  titlePanel("Pharmaceutical Intervention Simulation"),
+  sidebarLayout(
+    sidebarPanel(
+      sliderInput("baseline", "Baseline value", min = 0, max = 100, value = 50),
+      sliderInput("intervention", "Intervention value", min = 0, max = 100, value = 80),
+      sliderInput("duration", "Duration of intervention (months)", min = 1, max = 24, value = 6)
+    ),
+    mainPanel(
+      plotOutput("plot")
+    )
+  )
+)
+
+# Define server
+server <- function(input, output) {
+  output$plot <- renderPlot({
+    # Generate data for baseline and intervention periods
+    baseline_data <- data.frame(x = 1:input$duration, y = rnorm(input$duration, mean = input$baseline, sd = 5))
+    intervention_data <- data.frame(x = 1:input$duration, y = rnorm(input$duration, mean = input$intervention, sd = 5))
+    
+    # Combine data into a single data frame
+    data <- rbind(baseline_data, intervention_data)
+    
+    # Add a column to indicate baseline vs intervention period
+    data$period <- rep(c("baseline", "intervention"), each = input$duration)
+    
+    # Generate plot
+    ggplot(data, aes(x = x, y = y, color = period)) +
+      geom_line() +
+      labs(x = "Time (months)", y = "Outcome", color = "Period") +
+      theme_minimal()
+  })
+}
+
+# Run app
+shinyApp(ui, server)

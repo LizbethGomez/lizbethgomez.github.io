@@ -11,12 +11,13 @@ navbar:
     - text: "Projects" 
       menu:
       - text: Dashboards
-      - text: Dash 1
+      - text: Restaurant Inspections
         href: project_1.html
-      - text: Dash 2
+      - text: Food Types in NYC
         href: project_2.html
-      - text: Project 3
-        href: Project_3.html
+      - text: '---------------------'
+      - text: Shiny App - Evictions
+        href: https://willsimmons.shinyapps.io/model_building/
       
   right:
     - icon: fa-envelope fa-lg

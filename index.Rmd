@@ -28,8 +28,6 @@ My research interests are centered around epidemiological and biostatistical met
 When I'm not engaged in research, I enjoy indulging my love of food by exploring new culinary experiences. In my free time, I also enjoy gardening, cuddling with my Bichon-Frise named Lilu, baking, reading (including fiction), and coding in R.
 
 
-
-
 <div class = "row">
   
 <div class = "col-md-4">

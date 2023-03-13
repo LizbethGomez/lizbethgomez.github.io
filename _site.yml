@@ -17,12 +17,18 @@ navbar:
         href: project_2.html
       - text: '---------------------'
       - text: Presentations
+      - text: Presentations
         href: project_3.html
       - text: '---------------------'
+      - text: Shiny
       - text: Shiny App - Effectiveness
         href: https://lizbethgomez.shinyapps.io/Effectiveness/
       - text: Shiny App - Time-varying Treatments
         href: https://lizbethgomez.shinyapps.io/tv_app/
+      - text: '---------------------'
+      - text: GIS
+      - text: Greenspace in Philadelphia
+        href: https://storymaps.arcgis.com/stories/21b5deac6bce40dc9f664d5ba1c5ded8
         
   right:
     - icon: fa-envelope fa-lg
@@ -33,8 +39,6 @@ navbar:
       href: https://twitter.com/LizbethGomezF
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/lizbeth-gomez
-    - icon: fa-solid fa-map
-      href: https://storymaps.arcgis.com/stories/21b5deac6bce40dc9f664d5ba1c5ded8
     - icon: fa-google fa-lg
       href: https://scholar.google.com/citations?user=1ZYXZL0AAAAJ&hl=en
 output:

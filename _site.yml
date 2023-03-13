@@ -8,7 +8,14 @@ navbar:
     - text: "CV"
       href: LizbethGomez_CV_3_23.pdf
     - text: "Projects"
-      href: projects.html
+      menu:
+      - text: Project 1
+        href: project_1.html
+      - text: Project 2
+        href: project_2.html
+      - text: Project 3
+        href: Project_3.html
+      
   right:
     - icon: fa-envelope fa-lg
       href: mailto:<lg688@drexel.edu>

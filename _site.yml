@@ -16,8 +16,11 @@ navbar:
       - text: Food Types in NYC
         href: project_2.html
       - text: '---------------------'
-      - text: Shiny App - Evictions
-        href: https://willsimmons.shinyapps.io/model_building/
+      - text: Presentations
+        href: project_3.html
+      - text: '---------------------'
+      - text: Shiny App - Effectiveness
+        href: https://lizbethgomez.shinyapps.io/Effectiveness/
       
   right:
     - icon: fa-envelope fa-lg

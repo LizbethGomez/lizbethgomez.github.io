@@ -1,7 +1,88 @@
 ---
-title: "project_3"
-author: "Lizbeth Gomez"
-date: "2023-03-13"
-output: html_document
+title: "Presentations & Conferences"
 ---
+
+```{r, include = FALSE}
+
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+image_link <- function(image, url, border = FALSE, ...) {
+  border <- border * 2
+  htmltools::a(
+    href = url,
+    htmltools::img(src = image, style = paste0("max-width: 25%;border: ", border, "px solid;"), ...)
+  )
+}
+```
+
+
+<br>
+
+_PM2.5 and NO2 as Potential Modifiers of Asthma Exacerbation and Control in Clinical Trials_
+
+#### _UHC Day 2022_
+#### Philadelphia, PA
+#### Nov 6th, 2022
+
+```{r}
+image_link("uhc_day.PNG",
+           "LGOMEZ_UHC_DAY_POSTER.pdf", border = FALSE)
+```
+
+  
+<br>
+
+_PM2.5 and NO2 as Potential Modifiers of Asthma Exacerbation and Control in Clinical Trials_
+
+#### _ISEE 2022_
+#### Athens, Greece
+#### Sept 17-23, 2022
+
+```{r}
+image_link("ISEE 2022_1371_Gomez.PNG",
+           "ISEE 2022_1371_Gomez.pdf", border = FALSE)
+```
+
+
+<br>
+
+_Modification of Treatment Efficacy in Asthma Clinical Trials by Social and Environmental Co-exposures_
+
+#### _SERG 2022_
+#### Portland, OR
+#### April 21-22, 2022
+
+```{r}
+image_link("SNAPSHOT_SERG22.PNG",
+           "STICS SERG.pdf", border = FALSE)
+```
+
+<br>
+
+_Modification of Treatment Efficacy in Asthma Clinical Trials by Social and Environmental Exposures_
+
+#### _ISEE 2021_
+#### Online, via Zoom
+#### August 24-27, 2022
+
+```{r}
+image_link("SNAPSHOT_ISEE21.PNG",
+           "ISEE_LG2021.pdf", border = FALSE)
+```
+<br>
+
+
+```{js}
+var myCaptions = document.getElementsByClassName("caption");
+for (var i = 0; i < myCaptions.length; i++) {
+  myCaptions[i].innerHTML = myCaptions[i].innerHTML.slice(11);
+}
+```
+
+
+ <center><div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0003-3725-7531" href="https://orcid.org/0000-0003-3725-7531" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0003-3725-7531</a></div><center>
 

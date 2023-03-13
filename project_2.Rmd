@@ -1,6 +1,57 @@
 ---
-title: "project_2"
-author: "Lizbeth Gomez"
-date: "2023-03-13"
-output: html_document
+title: "Dashboard: Food Types by Borough in NYC"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r data, echo=FALSE, message=FALSE, warning=FALSE}
+nyc_food = 
+  p8105.datasets::rest_inspec %>%
+  janitor::clean_names() %>%
+  select(boro, critical_flag, cuisine_description, inspection_date, inspection_type, score, violation_description, grade) %>%
+  filter(boro!="Missing")
+```
+
+## Column {data-width="650"}
+
+### Mean Score of Major Food Types by Borough
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+nyc_food %>%
+  separate(inspection_date, into = c("year", "month", "day")) %>%
+  filter(cuisine_description == "African" | cuisine_description == "Asian" | cuisine_description == "American" | cuisine_description == "Pizza/Italian" | cuisine_description == "Latin (Cuban, Dominican, Puerto Rican, South & Central American)") %>%
+  group_by(cuisine_description, boro) %>%
+  summarize(mean_score = mean(score, na.rm = TRUE)) %>%
+  plot_ly(x = ~boro, y = ~mean_score, color = ~cuisine_description, type = "bar")
+```
+
+## Column {data-width="350"}
+
+### Number of Critical Inspections by Borough
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+nyc_food %>%
+  separate(inspection_date, into = c("year", "month", "day")) %>%
+  filter(critical_flag == "Critical" & year > 2012) %>%
+  group_by(boro, critical_flag, year) %>%
+  summarize(n=n()) %>%
+  plot_ly(x = ~year, y = ~n, color = ~boro, type = "scatter", mode = "line")
+```
+
+### Distribution of Donut Scores by Borough in 2017
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+nyc_food %>%
+  separate(inspection_date, into = c("year", "month", "day")) %>%
+  filter(cuisine_description == "Donuts" & year == "2017") %>%
+  plot_ly(x = ~boro, y = ~score, type = "violin")
+```

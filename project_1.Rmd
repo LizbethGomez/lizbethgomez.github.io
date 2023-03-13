@@ -36,7 +36,7 @@ Column {data-width=500}
 
 ### Chart A: Number of Restaurants Inspeced by Borough
 
-```{r echo=FALSE}
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 rest_inspec%>% 
   count(boro) %>% 
   filter(
@@ -49,7 +49,7 @@ rest_inspec%>%
 
 ### Chart B: Restaurant Sccore Distributions by Borough
 
-```{r echo=FALSE}
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 rest_inspec %>% 
   filter(
     boro != "Missing") %>% 
@@ -63,7 +63,7 @@ Column {data-width=500}
 
 ### Chart C: Culinary Categories by Borough
 
-```{r echo=FALSE}
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 rest_inspec%>% 
   group_by(boro) %>% 
   count(cuisine_description) %>%
@@ -74,9 +74,9 @@ rest_inspec%>%
   plot_ly(x = ~cuisine_description, y = ~n, color = ~boro, type = "bar")
 ```
 
-### Chart D
+### Chart D: Association Between Grade and Score for Each Restaurant
 
-```{r echo=FALSE}
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 rest_inspec %>% 
   plot_ly(x = ~grade, y = ~score, color = ~score, type = "scatter", mode = "markers")
 

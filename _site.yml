@@ -7,7 +7,7 @@ navbar:
       href: index.html 
     - text: "CV"
       href: LizbethGomez_CV_3_23.pdf
-    - text: "Projects"
+    - text: "Projects" 
       menu:
       - text: Project 1
         href: project_1.html

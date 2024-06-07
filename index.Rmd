@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = FALSE)
 knitr::include_graphics("gomez_web.jpg")
 ```
 
-I'm currently pursuing my doctoral degree at Drexel University's [Dornsife School of Public Health](https://drexel.edu/dornsife/academics/departments/environmental-occupational-health/eoh-student-profiles/) in Philadelphia, and I am also a [GATHER Fellow](https://drexel.edu/dornsife/global/global-health-training/gather/). Under the guidance of Dr. Jane Clougherty, my research focuses on evaluating how social and environmental factors impact the efficacy of pharmaceutical treatments. Prior to this, I earned a Master's in Public Health with a concentration in Environmental Health Science from [Mailman School of Public Health](https://www.publichealth.columbia.edu/academics/departments/environmental-health-sciences-ehs)  and a Bachelor's of Science from the [City College of New York](https://www.ccny.cuny.edu/).
+I completed my doctoral degree at Drexel University's [Dornsife School of Public Health](https://drexel.edu/dornsife/academics/departments/environmental-occupational-health/eoh-student-profiles/) in Philadelphia. Under the guidance of Dr. Jane Clougherty, my research focused on evaluating how social and environmental factors impact the efficacy of pharmaceutical treatments. Prior to this, I earned a Master's in Public Health with a concentration in Environmental Health Science from [Mailman School of Public Health](https://www.publichealth.columbia.edu/academics/departments/environmental-health-sciences-ehs)  and a Bachelor's of Science from the [City College of New York](https://www.ccny.cuny.edu/).
 
 My research interests are centered around epidemiological and biostatistical methodologies, with a particular focus on disparities in asthma outcomes. These interests originated from my work as a fellow in the [Puerto Rico IPE Service Learning Fellowship](https://www.publichealth.columbia.edu/research/puerto-rico) where I collaborated with a diverse team to develop a community-based participatory and service learning research project in San Juan. Since then, my passion for producing rigorous and reproducible research has continued to grow.
 
@@ -39,7 +39,7 @@ When I'm not engaged in research, I enjoy indulging my love of food by exploring
 -   Epidemiological and Biostatistical Methods
 -   Causal Inference & Implications
 -   Asthma Disparities 
--   Clinical Trial Effectiveness& Efficacy
+-   Clinical Trial Effectiveness & Efficacy
 -   Air Pollution
 -   Epidemiological Theory
 </div>
@@ -48,6 +48,8 @@ When I'm not engaged in research, I enjoy indulging my love of food by exploring
 <br><br>
 
 ### *Education*
+-   PhD in Environmental and Ocuppational Health, 2024 <br>
+   *Dornsife School of Public Health* <br>
 
 -   MPH in Environmental Health Sciences, 2020 <br>
     Molecular Epidemiology Concentration <br>
